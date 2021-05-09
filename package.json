@@ -1,0 +1,32 @@
+{
+  "name": "discord-transcript-archive",
+  "version": "1.0.0",
+  "description": "Archive Api for Discord Transcript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustBeingAbdi/Discord-Transcript-Archive.git"
+  },
+  "author": "Abdi Hassan (JustBeingAbdi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustBeingAbdi/Discord-Transcript-Archive/issues"
+  },
+  "homepage": "https://github.com/JustBeingAbdi/Discord-Transcript-Archive#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.1",
+    "download-file": "^0.1.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.7",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "path": "^0.12.7",
+    "secure-random-string": "^1.1.3"
+  }
+}
