@@ -11,12 +11,7 @@ const path = require("path");
 const { Strategy } = require("passport-discord");
 const fs = require('fs');
 const { join } = require('path');
-const Discord = require('discord.js');
-const client = new Discord.Client();
-client.on('ready', () => {
-console.log(`${client.user.tag} is Online`);
-})
-client.login(process.env.TOKEN)
+
 mongoose = require("mongoose");
  var srs = require('secure-random-string');
 
