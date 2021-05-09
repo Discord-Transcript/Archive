@@ -186,6 +186,6 @@ setTimeout(function(){
 
     
 
-    app.listen(process.env.port || 3000, (err) => {
-        console.log(`Webserver now online on port ${process.env.port}`);
-    });
+    
+
+app.listen(process.env.PORT || 3000);
