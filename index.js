@@ -138,10 +138,8 @@ app.get('/', async(req, res) => {
 		});
 })
 app.get('/view', async(req, res) => {
-  if(!req.query.uri) return res.redirect('/api/view');
-  if(req.query.uri){
-    res.redirect(`/api/view?uri=${req.query.uri}`);
-  }
+  let id = req.query.id || 'unknown';
+	res.redirect(`/api/view?uri=https://cdn.discordapp.com/attachments/840284436402274304/${id}/Transcript_Generated_By_Discord_Transcript.html`)
 })
 
    app.get('/api/view', async(req, res) => {
