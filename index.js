@@ -134,7 +134,7 @@ app.get('/', async(req, res) => {
  
   res.status(200).send({
 			status: 200,
-			message: `Discord Transcript Archive Api |  Your IP Key: ${ui}`
+			message: `ProTicket Archive Api |  Your IP Key: ${ui}`
 		});
 })
 app.get('/view', async(req, res) => {
